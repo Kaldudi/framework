@@ -1,34 +1,83 @@
 Projek ini adalah membuat sistem manajemen peminjaman ruangan dan fasilitas di sekolah yang dapat digunakan oleh Admin, Guru, dan Siswa.
 Sistem ini membantu mengatur jadwal, menghindari bentrokan pemakaian, serta mempermudah proses persetujuan peminjaman.
 
-1. Admin
+1. **Admin**
 
-Mengelola data ruang & fasilitas
+Fungsi utama: Mengelola sistem secara keseluruhan.
+Fitur:
 
-Melihat semua permintaan peminjaman
+Manajemen Ruang & Fasilitas
 
-Menyetujui atau menolak permintaan peminjaman
+Menambah, mengubah, dan menghapus data ruang/fasilitas.
 
-Mengelola akun pengguna (guru & siswa)
+Menentukan kapasitas, lokasi, dan keterangan fasilitas.
 
-Melihat laporan peminjaman
+Verifikasi Peminjaman
 
-2. Guru
+Melihat daftar semua permintaan peminjaman.
 
-Melihat daftar ruang/fasilitas yang tersedia
+Menyetujui atau menolak peminjaman.
 
-Mengajukan peminjaman ruang/fasilitas
+Menambahkan catatan/komentar pada keputusan.
 
-Melihat status peminjaman
+Manajemen Pengguna
 
-Membatalkan peminjaman (jika belum disetujui)
+Menambah akun guru dan siswa.
 
-3. Siswa
+Mengatur hak akses pengguna.
 
-Melihat daftar ruang/fasilitas yang tersedia
+Laporan & Riwayat
 
-Mengajukan peminjaman ruang/fasilitas
+Melihat riwayat peminjaman berdasarkan tanggal, pengguna, atau fasilitas.
 
-Melihat status peminjaman
+Mengekspor data peminjaman ke format PDF/Excel.
 
-Membatalkan peminjaman (jika belum disetujui)
+Cek Bentrok Jadwal
+
+Memeriksa otomatis jika jadwal peminjaman bentrok dengan yang sudah ada.
+
+2. **Guru**
+
+Fungsi utama: Mengajukan dan memantau peminjaman untuk kegiatan pembelajaran atau acara sekolah.
+Fitur:
+
+Pengajuan Peminjaman
+
+Memilih ruang/fasilitas yang tersedia.
+
+Menentukan durasi dan tanggal penggunaan.
+
+Melihat Status
+
+Mengecek apakah pengajuan disetujui, ditolak, atau masih menunggu.
+
+Pembatalan
+
+Membatalkan peminjaman sebelum disetujui admin.
+
+Riwayat Peminjaman
+
+Melihat daftar peminjaman sebelumnya.
+
+3. **Siswa**
+
+Fungsi utama: Mengajukan peminjaman untuk kegiatan ekstrakurikuler atau tugas sekolah.
+Fitur:
+
+Pengajuan Peminjaman
+
+Memilih ruang/fasilitas yang ingin digunakan.
+
+Menentukan durasi dan tanggal.
+
+Melihat Status
+
+Mengetahui status pengajuan secara real-time.
+
+Pembatalan
+
+Membatalkan peminjaman sebelum disetujui admin.
+
+Riwayat Peminjaman
+
+Melihat catatan peminjaman yang pernah dilakukan.
