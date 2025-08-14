@@ -1,4 +1,4 @@
-Proyek ini adalah sistem manajemen peminjaman ruangan dan fasilitas di sekolah yang dapat digunakan oleh Admin, Guru, dan Siswa.
+Projek ini adalah membuat sistem manajemen peminjaman ruangan dan fasilitas di sekolah yang dapat digunakan oleh Admin, Guru, dan Siswa.
 Sistem ini membantu mengatur jadwal, menghindari bentrokan pemakaian, serta mempermudah proses persetujuan peminjaman.
 
 1. Admin
